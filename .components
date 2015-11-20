@@ -1,0 +1,9 @@
+---
+:orm: activerecord
+:test: none
+:mock: none
+:script: none
+:renderer: haml
+:stylesheet: none
+:namespace: Kinoco
+:migration_format: number
