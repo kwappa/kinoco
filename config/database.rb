@@ -23,6 +23,7 @@ ActiveRecord::Base.configurations[:development] = {
 
 }
 
+postgres = URI.parse(ENV['DATABASE_URL'] || '')
 ActiveRecord::Base.configurations[:production] = {
   :adapter  => 'postgresql',
   :encoding => 'utf8',
