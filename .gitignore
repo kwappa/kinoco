@@ -9,3 +9,4 @@ db/*.db
 
 vendor/bundle
 config/database.rb
+.env
