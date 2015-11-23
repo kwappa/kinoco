@@ -6,4 +6,6 @@ Lita.configure do |config|
   config.handlers.trello.public_key = ENV['TRELLO_API_KEY']
   config.handlers.trello.token = ENV['TRELLO_API_TOKEN']
   config.handlers.trello.board = ENV['TRELLO_BOARD_ID']
+  config.redis[:url] = ENV['REDISTOGO_URL']
+  config.http.port = ENV['PORT']
 end
