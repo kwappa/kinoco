@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+dotenv_file = File.join(File.dirname(File.expand_path(__FILE__)), '..', '.env')
+unless File.exists?(dotenv_file)
+  puts '`.env` is required.'
+  exit 0
+end
+
+environments = File.read(dotenv_file).strip.split("\n")
+
+settings = environments.each_with_object([]) do |line, result|
+  (key, value) = line.split('=')
+  if key && value
+    key   = key.strip
+    value = value.strip.gsub(/'"/, '')
+    puts "ENV['#{key}'] is found."
+    result.push "#{key}=#{value}"
+  end
+end
+
+if settings.count > 0
+  `heroku config:set #{settings.join(' ')} --app "kinoco"`
+end
