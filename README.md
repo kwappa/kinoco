@@ -1,0 +1,57 @@
+# kinoco
+
+kinoco is a [lita](https://github.com/litaio/lita) based slack bot.
+
+## Features
+
+- garoon integration
+    - [kwappa/ragoon](https://github.com/kwappa/ragoon)
+- trello integration
+    - [RWJMurphy/lita-trello](https://github.com/RWJMurphy/lita-trello)
+
+## Install
+
+### Common
+
+- clone [kwappa/kinoco](https://github.com/kwappa/kinocoa)
+- create lita integration on your slack team
+- configure your [trello](https://trello.com/) API key
+    - [Trello Developers](https://developers.trello.com/)
+- place `.env` at root directory and set variables by [dotenv](https://github.com/bkeepers/dotenv) syntax
+    - `SLACK_TOKEN`      : your token of slack integration for lita
+    - `GAROON_ENDPOINT`  : your garoon URL (ends with `?WSDL`)
+    - `GAROON_USERNAME`  : your garoon username
+    - `GAROON_PASSWORD`  : your garoon password
+    - `TRELLO_API_KEY`   : your trello API key
+    - `TRELLO_API_TOKEN` : your trello API token
+    - `TRELLO_BOARD_ID`  : your trello board ID
+
+### Mac OS X
+
+- `bundle install`
+- remove settings from `lita_config.rb` for heroku deployment
+    - `config.redis[:url]`
+    - `config.http.port`
+- install and start redis
+    - `brew install redis`
+    - `redis-server /usr/local/etc/redis.conf`
+- `bundle exec lita start`
+
+### Heroku
+
+- create your app
+- add `heroku` as a remote repository of git
+    - `heroku git:remote --app #{YOUR_APP}`
+- install [Redis To Go](https://elements.heroku.com/addons/redistogo) to your app
+    - :credit_card: required
+- install and login [Heroku Toolbelt](https://toolbelt.heroku.com/)
+- set environment variables to your app
+    - `heroku config:set #{KEY}=#{VALUE} --app #{YOUR_APP}`
+    - execute `bin/heroku_env` to set from `.env`
+- deploy to heroku and run
+    - `git push heroku master`
+- request `http://#{YOUR_APP}.herokuapp.com` when your bot slept
+
+## License
+
+The program is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
