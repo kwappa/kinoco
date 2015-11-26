@@ -67,7 +67,7 @@ GEM
     oauth (0.4.7)
     puma (2.15.3)
     rack (1.6.4)
-    ragoon (0.1.2)
+    ragoon (0.2.0)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     rb-readline (0.5.3)
