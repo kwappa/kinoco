@@ -9,8 +9,6 @@ Lita.configure do |config|
   config.handlers.ragoon.slack_owner_id = ENV['SLACK_OWNER_ID']
   config.handlers.ragoon.slack_room_id  = ENV['SLACK_ROOM_ID']
 
-  unless ENV['REDISTOGO_URL'].nil?
-    config.redis[:url] = ENV['REDISTOGO_URL']
-    config.http.port   = ENV['PORT']
-  end
+  config.redis[:url] = ENV['REDISTOGO_URL']
+  config.http.port   = ENV['PORT']
 end
