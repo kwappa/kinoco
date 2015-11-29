@@ -44,9 +44,9 @@ GEM
     lita-dotenv (0.9.0)
       dotenv (~> 2.0)
       lita (>= 4.4)
-    lita-ragoon (0.3.0)
+    lita-ragoon (0.4.0)
       lita (>= 4.6)
-      ragoon
+      ragoon (~> 0.3.0)
     lita-slack (1.7.2)
       eventmachine
       faraday
@@ -67,7 +67,7 @@ GEM
     oauth (0.4.7)
     puma (2.15.3)
     rack (1.6.4)
-    ragoon (0.2.2)
+    ragoon (0.3.0)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     rb-readline (0.5.3)
@@ -103,7 +103,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-dotenv
-  lita-ragoon (~> 0.3.0)
+  lita-ragoon (~> 0.4.0)
   lita-slack
   lita-trello
 
