@@ -19,6 +19,8 @@ kinoco is a [lita](https://github.com/litaio/lita) based slack bot.
     - [Trello Developers](https://developers.trello.com/)
 - place `.env` at root directory and set variables by [dotenv](https://github.com/bkeepers/dotenv) syntax
     - `SLACK_TOKEN`      : your token of slack integration for lita
+    - `SLACK_OWNER_ID`   : your user ID of slack
+    - `SLACK_ROOM_ID`    : your room ID of slack that kinoco always lives in
     - `GAROON_ENDPOINT`  : your garoon URL (ends with `?WSDL`)
     - `GAROON_USERNAME`  : your garoon username
     - `GAROON_PASSWORD`  : your garoon password
