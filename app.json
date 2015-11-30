@@ -1,0 +1,6 @@
+{
+    "name": "kinoco",
+    "description": "pretty personal bot who lives in your slack",
+    "repository": "https://github.com/kwappa/kinoco",
+    "keywords": ["ruby", "slack", "lita", "ragoon", "garoon", "trello"]
+}
