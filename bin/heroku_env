@@ -9,6 +9,8 @@ end
 environments = File.read(dotenv_file).strip.split("\n")
 
 settings = environments.each_with_object([]) do |line, result|
+  next if line.strip.start_with?('#')
+
   (key, value) = line.split('=')
   if key && value
     key   = key.strip
