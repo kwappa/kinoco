@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.2.3'
 
-gem 'lita'
-gem 'lita-slack'
-gem 'lita-dotenv'
-gem 'lita-ragoon', '~> 0.4.0'
-gem 'lita-trello'
+gem 'ruboty'
+gem 'ruboty-slack_rtm'
+gem 'ruboty-cron'
+gem 'ruboty-ragoon'
+gem 'ruboty-trello'

@@ -1,1 +1,1 @@
-web: bundle exec lita
+bot: bundle exec ruboty
