@@ -1,3 +1,11 @@
+PATH
+  remote: ../ruboty-ragoon
+  specs:
+    ruboty-ragoon (0.1.0)
+      ragoon
+      ruboty
+      tilt
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,6 +17,8 @@ GEM
       tzinfo (~> 1.1)
     chrono (0.1.0)
       activesupport
+    domain_name (0.5.25)
+      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.0.2)
     eventmachine (1.0.8)
     faraday (0.9.0)
@@ -18,12 +28,26 @@ GEM
     faye-websocket (0.9.2)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
     mem (0.1.5)
+    mime-types (2.99)
+    mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
+    netrc (0.11.0)
+    nokogiri (1.6.7)
+      mini_portile2 (~> 2.0.0.rc2)
+    ragoon (0.3.0)
+      nokogiri (~> 1.6.6)
+      rest-client (~> 1.8.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -47,8 +71,12 @@ GEM
       websocket-driver
     slop (4.2.1)
     thread_safe (0.3.5)
+    tilt (2.0.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
     websocket-driver (0.6.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -59,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   ruboty
   ruboty-cron
+  ruboty-ragoon!
   ruboty-slack_rtm
 
 BUNDLED WITH
