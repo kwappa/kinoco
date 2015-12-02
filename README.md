@@ -1,6 +1,6 @@
 # kinoco
 
-kinoco is a [lita](https://github.com/litaio/lita) based slack bot.
+kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -29,17 +29,15 @@ kinoco is a [lita](https://github.com/litaio/lita) based slack bot.
     - `TRELLO_API_KEY`   : your trello API key
     - `TRELLO_API_TOKEN` : your trello API token
     - `TRELLO_BOARD_ID`  : your trello board ID
+- also place basic parameter for [Ruboty#env]( https://github.com/r7kamura/ruboty)
 
 ### Mac OS X
 
 - `bundle install`
-- remove settings from `lita_config.rb` for heroku deployment
-    - `config.redis[:url]`
-    - `config.http.port`
 - install and start redis
     - `brew install redis`
     - `redis-server /usr/local/etc/redis.conf`
-- `bundle exec lita start`
+- `bundle exec ruboty --dotenv`
 
 ### Heroku
 
@@ -54,7 +52,7 @@ kinoco is a [lita](https://github.com/litaio/lita) based slack bot.
     - execute `bin/heroku_env` to set from `.env`
 - deploy to heroku and run
     - `git push heroku master`
-- request `http://#{YOUR_APP}.herokuapp.com` when your bot slept
+    - `heroku ps:scale bot=1`
 
 ## License
 
