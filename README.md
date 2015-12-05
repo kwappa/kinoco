@@ -10,6 +10,7 @@ kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
     - [kwappa/ragoon](https://github.com/kwappa/ragoon)
 - trello integration
     - [bitjourney/ruboty-trello](https://github.com/bitjourney/ruboty-trello)
+
 ## Install
 
 ### Common
