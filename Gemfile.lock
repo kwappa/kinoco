@@ -1,3 +1,8 @@
+PATH
+  remote: ./handlers/ruboty-kinoco
+  specs:
+    ruboty-kinoco (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -98,6 +103,7 @@ PLATFORMS
 DEPENDENCIES
   ruboty
   ruboty-cron
+  ruboty-kinoco!
   ruboty-ragoon
   ruboty-slack_rtm
   ruboty-trello
