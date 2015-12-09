@@ -15,9 +15,9 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
+    addressable (2.4.0)
     builder (3.2.2)
-    chrono (0.1.0)
+    chrono (0.3.0)
       activesupport
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
@@ -61,11 +61,11 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.1.1)
+    ruboty-ragoon (0.1.2)
       ragoon
       ruboty
       tilt
-    ruboty-slack_rtm (1.5.1)
+    ruboty-slack_rtm (1.6.0)
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
