@@ -47,6 +47,9 @@ GEM
     ragoon (0.3.1)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
+    redis (3.2.2)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -65,6 +68,10 @@ GEM
       ragoon
       ruboty
       tilt
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
     ruboty-slack_rtm (1.6.0)
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
@@ -105,6 +112,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-kinoco!
   ruboty-ragoon
+  ruboty-redis
   ruboty-slack_rtm
   ruboty-trello
 
