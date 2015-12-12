@@ -44,7 +44,7 @@ GEM
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
-    ragoon (0.3.1)
+    ragoon (0.4.1)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.2.2)
@@ -64,8 +64,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.1.2)
-      ragoon
+    ruboty-ragoon (0.2.0)
+      ragoon (~> 0.4.1)
       ruboty
       tilt
     ruboty-redis (0.0.6)
