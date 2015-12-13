@@ -76,7 +76,7 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
-    ruboty-todo (0.1.1)
+    ruboty-todo (0.2.0)
       ruboty
     ruboty-trello (0.1.4)
       ruboty
