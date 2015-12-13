@@ -76,6 +76,8 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
+    ruboty-todo (0.1.1)
+      ruboty
     ruboty-trello (0.1.4)
       ruboty
       ruby-trello
@@ -114,6 +116,7 @@ DEPENDENCIES
   ruboty-ragoon
   ruboty-redis
   ruboty-slack_rtm
+  ruboty-todo
   ruboty-trello
 
 BUNDLED WITH
