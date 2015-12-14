@@ -10,6 +10,8 @@ kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
     - [kwappa/ragoon](https://github.com/kwappa/ragoon)
 - trello integration
     - [bitjourney/ruboty-trello](https://github.com/bitjourney/ruboty-trello)
+- todo management
+    - [kwappa/ruboty-todo](https://github.com/kwappa/ruboty-todo)
 
 ## Install
 
@@ -20,15 +22,17 @@ kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
 - configure your [trello](https://trello.com/) API key
     - [Trello Developers](https://developers.trello.com/)
 - place `.env` at root directory and set variables by [dotenv](https://github.com/bkeepers/dotenv) syntax
-    - `SLACK_TOKEN`      : your token of slack integration for lita
-    - `SLACK_OWNER_ID`   : your user ID of slack
-    - `SLACK_ROOM_ID`    : your room ID of slack that kinoco always lives in
-    - `GAROON_ENDPOINT`  : your garoon URL (ends with `?WSDL`)
-    - `GAROON_USERNAME`  : your garoon username
-    - `GAROON_PASSWORD`  : your garoon password
-    - `TRELLO_API_KEY`   : your trello API key
-    - `TRELLO_API_TOKEN` : your trello API token
-    - `TRELLO_BOARD_ID`  : your trello board ID
+    - `SLACK_TOKEN`                 : your token of slack integration for lita
+    - `SLACK_OWNER_ID`              : your user ID of slack
+    - `GAROON_ENDPOINT`             : your garoon URL (ends with `?WSDL`)
+    - `GAROON_USERNAME`             : your garoon username
+    - `GAROON_PASSWORD`             : your garoon password
+    - `TRELLO_DEVELOPER_PUBLIC_KEY` : your trello API key
+    - `TRELLO_MEMBER_TOKEN`         : your trello API token
+    - `TRELLO_BOARD_ID`             : your trello board ID
+    - `TODO_OWNERS`                 : users who can operate `ruboty-todo`
+        - join each user name by comma
+        - e.g: `owner_alice,owner_bob,owner_charlie`
 - also place basic parameter for [Ruboty#env]( https://github.com/r7kamura/ruboty)
 
 ### Mac OS X
