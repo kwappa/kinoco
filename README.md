@@ -17,8 +17,8 @@ kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
 
 ### Common
 
-- clone [kwappa/kinoco](https://github.com/kwappa/kinocoa)
-- create lita integration on your slack team
+- clone [kwappa/kinoco](https://github.com/kwappa/kinoco)
+- create bot integration on your slack team
 - configure your [trello](https://trello.com/) API key
     - [Trello Developers](https://developers.trello.com/)
 - place `.env` at root directory and set variables by [dotenv](https://github.com/bkeepers/dotenv) syntax
@@ -29,11 +29,10 @@ kinoco is a [Ruboty](https://github.com/r7kamura/ruboty) based slack bot.
     - `GAROON_PASSWORD`             : your garoon password
     - `TRELLO_DEVELOPER_PUBLIC_KEY` : your trello API key
     - `TRELLO_MEMBER_TOKEN`         : your trello API token
-    - `TRELLO_BOARD_ID`             : your trello board ID
     - `TODO_OWNERS`                 : users who can operate `ruboty-todo`
         - join each user name by comma
         - e.g: `owner_alice,owner_bob,owner_charlie`
-- also place basic parameter for [Ruboty#env]( https://github.com/r7kamura/ruboty)
+- also place basic parameter for [Ruboty#env]( https://github.com/r7kamura/ruboty) and [ruboty-redis](https://github.com/r7kamura/ruboty-redis)
 
 ### Mac OS X
 
