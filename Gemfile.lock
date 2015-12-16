@@ -72,6 +72,8 @@ GEM
       redis
       redis-namespace
       ruboty
+    ruboty-reminder (0.2.2)
+      ruboty
     ruboty-slack_rtm (1.6.0)
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
@@ -115,6 +117,7 @@ DEPENDENCIES
   ruboty-kinoco!
   ruboty-ragoon
   ruboty-redis
+  ruboty-reminder
   ruboty-slack_rtm
   ruboty-todo
   ruboty-trello
