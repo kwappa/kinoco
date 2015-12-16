@@ -44,7 +44,7 @@ GEM
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
-    ragoon (0.4.1)
+    ragoon (0.4.2)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.2.2)
@@ -71,6 +71,8 @@ GEM
     ruboty-redis (0.0.6)
       redis
       redis-namespace
+      ruboty
+    ruboty-reminder (0.2.2)
       ruboty
     ruboty-slack_rtm (1.6.0)
       ruboty (>= 1.1.4)
@@ -115,6 +117,7 @@ DEPENDENCIES
   ruboty-kinoco!
   ruboty-ragoon
   ruboty-redis
+  ruboty-reminder
   ruboty-slack_rtm
   ruboty-todo
   ruboty-trello
