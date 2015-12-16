@@ -44,7 +44,7 @@ GEM
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
-    ragoon (0.4.1)
+    ragoon (0.4.2)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.2.2)
