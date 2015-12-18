@@ -41,7 +41,7 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.6.7)
+    nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
     ragoon (0.4.2)
@@ -64,7 +64,7 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.2.0)
+    ruboty-ragoon (0.2.1)
       ragoon (~> 0.4.1)
       ruboty
       tilt
@@ -78,7 +78,7 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
-    ruboty-todo (0.2.0)
+    ruboty-todo (0.3.0)
       ruboty
     ruboty-trello (0.1.4)
       ruboty
