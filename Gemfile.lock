@@ -78,12 +78,12 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.0.0)
       slack-rtmapi (~> 1.0.0.rc4)
-    ruboty-todo (0.3.0)
+    ruboty-todo (0.4.0)
       ruboty
     ruboty-trello (0.1.4)
       ruboty
       ruby-trello
-    ruby-trello (1.4.0)
+    ruby-trello (1.4.1)
       activemodel (>= 3.2.0)
       addressable (~> 2.3)
       json
@@ -123,4 +123,4 @@ DEPENDENCIES
   ruboty-trello
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
