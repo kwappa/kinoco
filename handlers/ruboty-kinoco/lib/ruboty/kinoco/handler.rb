@@ -6,7 +6,7 @@ module Ruboty
 
       def ohayo(message)
         message.reply('おはようございます。今日の予定です。')
-        ::Ruboty::Actions::Ragoon.new(message).call
+        ::Ruboty::Actions::Event.new(message).call
       end
 
       def otsukare(message)
@@ -21,7 +21,7 @@ module Ruboty
                    end
 
         message.reply("おつかれさまでした。#{date_str}の予定です。")
-        ::Ruboty::Actions::Ragoon.new(message).call
+        ::Ruboty::Actions::Event.new(message).call
       end
     end
   end
