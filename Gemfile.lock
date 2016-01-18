@@ -64,7 +64,7 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.5.0)
+    ruboty-ragoon (0.5.1)
       ragoon (~> 0.4.1)
       ruboty
       tilt
