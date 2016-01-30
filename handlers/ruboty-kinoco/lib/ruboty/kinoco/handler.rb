@@ -10,7 +10,8 @@ module Ruboty
       end
 
       def otsukare(message)
-        date = Date.parse(message[:date]) rescue Date.today
+        date = Date.easy_parse(message[:date])
+
         date_str = case date
                    when Date.today
                      '今日'

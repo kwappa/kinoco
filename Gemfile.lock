@@ -20,6 +20,7 @@ GEM
     builder (3.2.2)
     chrono (0.3.0)
       activesupport
+    date_misc (1.1.1)
     domain_name (0.5.20160128)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
@@ -113,6 +114,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  date_misc
   ruboty
   ruboty-cron
   ruboty-kinoco!
