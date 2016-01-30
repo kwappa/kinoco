@@ -2,14 +2,15 @@ PATH
   remote: ./handlers/ruboty-kinoco
   specs:
     ruboty-kinoco (0.1.0)
+      date_misc
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.5)
-      activesupport (= 4.2.5)
+    activemodel (4.2.5.1)
+      activesupport (= 4.2.5.1)
       builder (~> 3.1)
-    activesupport (4.2.5)
+    activesupport (4.2.5.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -19,7 +20,7 @@ GEM
     builder (3.2.2)
     chrono (0.3.0)
       activesupport
-    domain_name (0.5.25)
+    domain_name (0.5.20160128)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
     eventmachine (1.0.9.1)
@@ -37,14 +38,14 @@ GEM
     mem (0.1.5)
     mime-types (2.99)
     mini_portile2 (2.0.0)
-    minitest (5.8.3)
+    minitest (5.8.4)
     multi_json (1.11.2)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.6.7.1)
+    nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
-    ragoon (0.4.2)
+    ragoon (0.4.3)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.2.2)

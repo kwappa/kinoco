@@ -11,3 +11,5 @@ gem 'ruboty-trello'
 gem 'ruboty-todo'
 gem 'ruboty-reminder'
 gem 'ruboty-kinoco', path: './handlers/ruboty-kinoco'
+
+gem 'date_misc'
