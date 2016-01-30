@@ -1,8 +1,8 @@
 module Ruboty
   module Kinoco
     class Handler < Ruboty::Handlers::Base
-      on(/ohayo(\s*)(?<date>.*)/,    name: 'ohayo',    hidden: true, description: 'show morning greet')
-      on(/otsukare(\s*)(?<date>.*)/, name: 'otsukare', hidden: true, description: 'show after-work greet')
+      on(/ohayo(?<date>\Z|\s+.+)/,    name: 'ohayo',    hidden: true, description: 'show morning greet')
+      on(/otsukare(?<date>\Z|\s+.+)/, name: 'otsukare', hidden: true, description: 'show after-work greet')
 
       def ohayo(message)
         message.reply('おはようございます。今日の予定です。')
