@@ -7,10 +7,10 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.5.1)
-      activesupport (= 4.2.5.1)
+    activemodel (4.2.6)
+      activesupport (= 4.2.6)
       builder (~> 3.1)
-    activesupport (4.2.5.1)
+    activesupport (4.2.6)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -21,7 +21,7 @@ GEM
     chrono (0.3.0)
       activesupport
     date_misc (1.1.1)
-    domain_name (0.5.20160216)
+    domain_name (0.5.20160309)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
     eventmachine (1.0.9.1)
@@ -46,7 +46,7 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
-    ragoon (0.4.3)
+    ragoon (0.5.0)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.2.2)
@@ -66,8 +66,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.5.2)
-      ragoon (~> 0.4.1)
+    ruboty-ragoon (0.6.0)
+      ragoon (~> 0.5.0)
       ruboty
       tilt
     ruboty-redis (0.0.6)
