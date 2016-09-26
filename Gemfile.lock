@@ -38,7 +38,7 @@ GEM
     mem (0.1.5)
     mime-types (2.99.3)
     mini_portile2 (2.1.0)
-    minitest (5.9.0)
+    minitest (5.9.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     netrc (0.11.0)
@@ -47,7 +47,7 @@ GEM
       pkg-config (~> 1.1.7)
     oauth (0.5.1)
     pkg-config (1.1.7)
-    ragoon (0.6.0)
+    ragoon (0.7.0)
       nokogiri (~> 1.6.6)
       rest-client (~> 1.8.0)
     redis (3.3.1)
@@ -67,8 +67,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-ragoon (0.7.0)
-      ragoon (~> 0.6.0)
+    ruboty-ragoon (0.8.0)
+      ragoon (~> 0.7.0)
       ruboty
       tilt
     ruboty-redis (0.0.6)
