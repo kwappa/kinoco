@@ -10,6 +10,7 @@ gem 'ruboty-ragoon'
 gem 'ruboty-trello'
 gem 'ruboty-todo'
 gem 'ruboty-reminder'
+gem 'ruboty-echo'
 gem 'ruboty-kinoco', path: './handlers/ruboty-kinoco'
 
 gem 'date_misc'
