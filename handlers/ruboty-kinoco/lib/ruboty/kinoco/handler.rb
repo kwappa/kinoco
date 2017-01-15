@@ -6,7 +6,8 @@ module Ruboty
 
       def ohayo(message)
         message.reply('おはようございます。今日の予定です。')
-        ::Ruboty::Actions::Ragoon::Event.new(message).call
+        Ruboty::Actions::Ragoon::Event.new(message).call
+        message.reply('kinoco livedoor_weather')
       end
 
       def otsukare(message)
