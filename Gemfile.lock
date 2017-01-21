@@ -72,7 +72,7 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-livedoor_weather (0.1.2)
+    ruboty-livedoor_weather (0.2.0)
       nokogiri
       rest-client
     ruboty-ragoon (0.8.1)
