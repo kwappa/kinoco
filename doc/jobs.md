@@ -3,6 +3,7 @@
 ## in public channel
 
 ```
+kinoco add job "50 7 * * *" kinoco livedoor_weather
 kinoco add job "0 8 * * *" kinoco ohayo
 ```
 
