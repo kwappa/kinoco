@@ -14,5 +14,4 @@ gem 'ruboty-reminder'
 gem 'ruboty-echo'
 gem 'ruboty-kinoco', path: './handlers/ruboty-kinoco'
 gem 'ruboty-livedoor_weather'
-
 gem 'date_misc'
