@@ -1,5 +1,5 @@
 PATH
-  remote: ./handlers/ruboty-kinoco
+  remote: handlers/ruboty-kinoco
   specs:
     ruboty-kinoco (0.1.0)
       date_misc
@@ -7,25 +7,25 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.0.2)
-      activesupport (= 5.0.2)
-    activesupport (5.0.2)
+    activemodel (5.1.4)
+      activesupport (= 5.1.4)
+    activesupport (5.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     chrono (0.3.0)
       activesupport
     concurrent-ruby (1.0.5)
     date_misc (1.1.1)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.2.0)
-    event_emitter (0.2.5)
-    eventmachine (1.2.3)
-    faraday (0.12.0.1)
+    dotenv (2.2.1)
+    event_emitter (0.2.6)
+    eventmachine (1.2.5)
+    faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -34,29 +34,29 @@ GEM
       websocket-driver (>= 0.5.1)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (0.8.1)
-    json (2.0.4)
+    i18n (0.8.6)
+    json (2.1.0)
     mem (0.1.5)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.1.0)
-    minitest (5.10.1)
-    multi_json (1.12.1)
+    mini_portile2 (2.2.0)
+    minitest (5.10.3)
+    multi_json (1.12.2)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
-    oauth (0.5.1)
-    public_suffix (2.0.5)
-    ragoon (1.0.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    oauth (0.5.3)
+    public_suffix (3.0.0)
+    ragoon (1.1.0)
       nokogiri (~> 1.7)
       rest-client (~> 2.0)
     rake (12.0.0)
     redis (3.3.3)
     redis-namespace (1.5.3)
       redis (~> 3.0, >= 3.0.4)
-    rest-client (2.0.1)
+    rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -75,8 +75,8 @@ GEM
     ruboty-livedoor_weather (0.2.0)
       nokogiri
       rest-client
-    ruboty-ragoon (1.0.0)
-      ragoon (~> 1.0.0)
+    ruboty-ragoon (1.1.0)
+      ragoon (~> 1.1.0)
       ruboty
       tilt
     ruboty-redis (0.0.6)
@@ -100,19 +100,19 @@ GEM
       json
       oauth (>= 0.4.5)
       rest-client (>= 1.8.0)
-    slack-api (1.5.0)
+    slack-api (1.6.0)
       faraday (~> 0.11)
       faraday_middleware (~> 0.10.0)
       faye-websocket (~> 0.10.6)
       multi_json (~> 1.0, >= 1.0.3)
-    slop (4.4.1)
+    slop (4.5.0)
     thread_safe (0.3.6)
-    tilt (2.0.7)
+    tilt (2.0.8)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.3)
+    unf_ext (0.0.7.4)
     websocket (1.2.4)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -140,7 +140,7 @@ DEPENDENCIES
   ruboty-trello
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.13.7
+   1.15.4
