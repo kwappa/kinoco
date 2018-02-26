@@ -50,7 +50,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     oauth (0.5.4)
     public_suffix (3.0.2)
-    ragoon (1.1.0)
+    ragoon (1.1.1)
       nokogiri (~> 1.7)
       rest-client (~> 2.0)
     rake (12.3.0)
